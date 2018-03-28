@@ -1,0 +1,45 @@
+{
+  "name": "app-game-client",
+  "version": "1.0.0",
+  "description": "HTML5 on-line game",
+  "repository": "https://github.com/True-Battle/web-client.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development gulp dev",
+    "build": "NODE_ENV=production gulp"
+  },
+  "author": "Alex Subbota",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel-core": "^6.18.0",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "css-loader": "^0.22.0",
+    "file-loader": "^0.11.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-connect": "^5.0.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-ng-annotate": "^2.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-uglify": "^2.0.0",
+    "jade-loader": "^0.8.0",
+    "json-loader": "^0.5.4",
+    "style-loader": "^0.13.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "ts-loader": "^3.5.0",
+    "typescript": "^2.8.1",
+    "url-loader": "^0.5.8",
+    "webpack": "3.11.0",
+    "webpack-merge": "^4.1.2",
+    "webpack-stream": "^3.2.0"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

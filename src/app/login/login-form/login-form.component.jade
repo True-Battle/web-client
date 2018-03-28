@@ -1,0 +1,10 @@
+form(ng-submit="$ctrl.login()")
+    .login-form__header
+        h1.login-form__title True Battle
+    .login-form__body
+        label.login-form__label.login-form__label_first
+            input.login-form__input(placeholder="Name", ng-model="$ctrl.form.username")
+        label.login-form__label.login-form__label_last
+            input.login-form__input(placeholder="Password", type="password", ng-model="$ctrl.form.password")
+        .buttons-wrap
+            button.login-form__submit-button Login

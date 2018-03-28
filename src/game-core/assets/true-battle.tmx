@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="40" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="atlas" tilewidth="64" tileheight="64" spacing="1">
+  <image source="../../../../GameDev/TRUE_BATTLE/TILES/atlas.png" width="779" height="779"/>
+ </tileset>
+ <layer name="Слой тайлов 1" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt2E1LAzEQgOGIF20LBWmtWivaXVSKbT14UTy5B/3/v8gJzLBDSCbZfHT3sIcXClL2YWaTgo1SqhkbGyveTw/PvIRW2GQAMzCbQmvoHpoNwGPz7aCH0Rfte4FeB+pbQjfYdYfv9XGWQ9LnfaLac68/fydU4n3YQweows/8fvrrWE7bF/oqR3tmzD0/6X3idzjNzdU7c55qv3pmR4wMko+Mq4By+p5Ue9a3hkmyuqoz+2Zs13zP9LxQn/493WAxng/sE5uynR0MC3+uy3c0XG/QBRY7M/NMmDPg+94KRmptuFJ9emY15toTndMlM7pmarOV9nHj1PF3aXYpPppJqNH2Dvhml+LjxpC7wnTx2S2w3D5u7GKrcOa2vZLzDJpHmn6NbO9W7Ul657TtCrpLmJvks1k2Rj7bcyFflznZOkcXVdq362Dje031caO0X8m3UO05mFtsqT4yxsyP7hS9z1uLq4TPdk4lH+2zpK9J8NFZKO3jd3SMTyqHT5rh0Hyh5/dUPt8d2LfPd8f07fPNT/9v6THB9w+Xj0QQ
+  </data>
+ </layer>
+</map>

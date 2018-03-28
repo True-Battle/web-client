@@ -1,0 +1,60 @@
+.menu
+  position absolute
+  display none
+  left calc(50% - 100px)
+  top calc(50% - 112px)
+  width 200px
+  height 224px
+  background url('/img/menu/menu_bg.png') no-repeat
+  background-size cover
+  z-index 10
+
+  &_open
+    display block
+
+.menu__title
+  position absolute
+  top 0
+  left 0
+  height 30px
+  width 100%
+  padding-top 4px
+  text-align center
+  font-size 1.2em
+  font-weight 600
+  color rgb(255,255,255)
+
+.menu__list
+  margin 26px auto 0
+  list-style none
+  padding 20px
+
+.menu__item
+  width 164px
+  margin-top 10px
+  margin-bottom 10px
+  padding 6px 0
+  text-align center
+  text-transform uppercase
+  font-size .8em
+  background url('/img/menu/menu_item_bg.png') no-repeat
+
+  font-weight 600
+  color rgb(200,200,200)
+  transition color 200ms ease-in 0s
+  cursor url('/img/cursor-pointer.png'), pointer
+
+  &:hover
+    color rgb(255,255,255)
+    opacity .85
+
+  &_title
+    text-decoration none
+    background-color inherit
+    text-transform uppercase
+    font-size 2.4em
+    color yellow
+    cursor default
+
+  &_title:hover
+    color yellow

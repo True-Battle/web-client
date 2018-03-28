@@ -1,0 +1,50 @@
+{ "height":10,
+ "layers":[
+        {
+         "data":[6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 2, 6, 6, 6, 6, 6, 6, 3, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 3, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 2, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 3, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6],
+         "height":10,
+         "name":"\u0421\u043b\u043e\u0439 \u0442\u0430\u0439\u043b\u043e\u0432 1",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":10,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "height":10,
+         "name":"\u0421\u043b\u043e\u0439 \u043e\u0431\u044a\u0435\u043a\u0442\u043e\u0432 1",
+         "objects":[],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "width":10,
+         "x":0,
+         "y":0
+        }],
+ "orientation":"orthogonal",
+ "properties":
+    {
+
+    },
+ "tileheight":50,
+ "tilesets":[
+        {
+         "firstgid":1,
+         "image":"map.png",
+         "imageheight":200,
+         "imagewidth":200,
+         "margin":0,
+         "name":"map",
+         "properties":
+            {
+
+            },
+         "spacing":0,
+         "tileheight":50,
+         "tilewidth":50
+        }],
+ "tilewidth":50,
+ "version":1,
+ "width":10
+}
